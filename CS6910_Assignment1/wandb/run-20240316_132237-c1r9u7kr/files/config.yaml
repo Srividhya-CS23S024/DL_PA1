@@ -1,0 +1,73 @@
+wandb_version: 1
+
+input_size:
+  desc: null
+  value: 784
+output_size:
+  desc: null
+  value: 10
+n_epoch:
+  desc: null
+  value: 5
+n_hiddenlayer:
+  desc: null
+  value: 3
+hl:
+  desc: null
+  value:
+  - 128
+  - 128
+  - 128
+reg:
+  desc: null
+  value: 0
+lr:
+  desc: null
+  value: 1.0e-05
+optimizer:
+  desc: null
+  value: nadam
+batch_size:
+  desc: null
+  value: 128
+initialization:
+  desc: null
+  value: xavier
+loss_type:
+  desc: null
+  value: squared_error
+activation:
+  desc: null
+  value: relu
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.13
+    cli_version: 0.16.3
+    framework: keras
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    start_time: 1710575557.644155
+    t:
+      1:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      2:
+      - 2
+      - 3
+      - 5
+      - 53
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.10.13
+      5: 0.16.3
+      8:
+      - 1
+      - 3
+      - 5
+      13: windows-amd64

@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.13",
+    "heartbeatAt": "2024-03-17T12:43:28.220161",
+    "startedAt": "2024-03-17T12:43:24.692173",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "DL_PA1/CS6910_Assignment1/PA1_CS23S024-MNIST.ipynb",
+    "codePathLocal": null,
+    "root": "C:/Users/Hp/Downloads/DL_assignment/DL_PA1",
+    "git": {
+        "remote": "https://github.com/Srividhya-CS23S024/DL_PA1.git",
+        "commit": "98fe27240829239f8915413eb57987429cac9cc4"
+    },
+    "email": "srividhya0197@gmail.com",
+    "host": "DESKTOP-7VNMN7S",
+    "username": "Hp",
+    "executable": "C:\\Users\\Hp\\.conda\\envs\\keras_env\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2201.0,
+        "min": 0.0,
+        "max": 2201.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2201.0,
+            "min": 0.0,
+            "max": 2201.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 446.5276870727539,
+            "used": 136.0994110107422
+        }
+    },
+    "memory": {
+        "total": 7.917377471923828
+    }
+}

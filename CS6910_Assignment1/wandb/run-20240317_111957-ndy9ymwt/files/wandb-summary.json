@@ -1,0 +1,1 @@
+{"Accuracy": 0.8736111111111111, "Loss": 508.04439594994255, "Accuracy_val": 0.871, "Loss_val": 57.128732021049146, "Epoch": 4, "n_datatrain": 270000, "_timestamp": 1710658318.4011126, "_runtime": 3721.0814945697784, "_step": 26, "_wandb": {"runtime": 3717}}

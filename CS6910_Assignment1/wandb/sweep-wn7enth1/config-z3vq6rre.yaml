@@ -1,0 +1,22 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batch_size:
+  value: 128
+hl_size:
+  value: 32
+initialization:
+  value: xavier
+loss_type:
+  value: squared_error
+lr:
+  value: 1.0e-05
+n_epoch:
+  value: 5
+n_hiddenlayer:
+  value: 3
+optimizer:
+  value: nadam
+reg:
+  value: 0

@@ -1,0 +1,44 @@
+2024-03-16 11:11:43,677 INFO    MainThread:6052 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-16 11:11:43,677 INFO    MainThread:6052 [wandb_setup.py:_flush():76] Configure stats pid to 6052
+2024-03-16 11:11:43,677 INFO    MainThread:6052 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Hp\.config\wandb\settings
+2024-03-16 11:11:43,678 INFO    MainThread:6052 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Hp\Downloads\DL_assignment\DL_PA1\CS6910_Assignment1\wandb\settings
+2024-03-16 11:11:43,678 INFO    MainThread:6052 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-16 11:11:43,678 INFO    MainThread:6052 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-16 11:11:43,679 INFO    MainThread:6052 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-16 11:11:43,679 INFO    MainThread:6052 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\Hp\Downloads\DL_assignment\DL_PA1\CS6910_Assignment1\wandb\run-20240316_111143-brqg56mq\logs\debug.log
+2024-03-16 11:11:43,679 INFO    MainThread:6052 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\Hp\Downloads\DL_assignment\DL_PA1\CS6910_Assignment1\wandb\run-20240316_111143-brqg56mq\logs\debug-internal.log
+2024-03-16 11:11:43,680 INFO    MainThread:6052 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001E3965930A0>
+2024-03-16 11:11:43,680 INFO    MainThread:6052 [wandb_init.py:init():566] calling init triggers
+2024-03-16 11:11:43,680 INFO    MainThread:6052 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {'input_size': 784, 'output_size': 10, 'n_epoch': 5, 'n_hiddenlayer': 3, 'hl': [128, 128, 128], 'reg': 0, 'lr': 1e-05, 'optimizer': 'nadam', 'batch_size': 128, 'initialization': 'xavier', 'loss_type': 'cross_entropy', 'activation': 'relu'}
+2024-03-16 11:11:43,680 INFO    MainThread:6052 [wandb_init.py:init():616] starting backend
+2024-03-16 11:11:43,680 INFO    MainThread:6052 [wandb_init.py:init():620] setting up manager
+2024-03-16 11:11:43,691 INFO    MainThread:6052 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-16 11:11:43,695 INFO    MainThread:6052 [wandb_init.py:init():628] backend started and connected
+2024-03-16 11:11:43,713 INFO    MainThread:6052 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-03-16 11:11:43,719 INFO    MainThread:6052 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-16 11:11:43,720 INFO    MainThread:6052 [wandb_init.py:init():720] updated telemetry
+2024-03-16 11:11:43,886 INFO    MainThread:6052 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-16 11:11:46,177 INFO    MainThread:6052 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-16 11:11:47,826 INFO    MainThread:6052 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.16.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-16 11:11:47,826 INFO    MainThread:6052 [wandb_init.py:init():804] starting run threads in backend
+2024-03-16 11:11:48,259 INFO    MainThread:6052 [wandb_run.py:_console_start():2241] atexit reg
+2024-03-16 11:11:48,259 INFO    MainThread:6052 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-03-16 11:11:48,260 INFO    MainThread:6052 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-03-16 11:11:48,260 INFO    MainThread:6052 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-03-16 11:11:48,261 INFO    MainThread:6052 [wandb_init.py:init():847] run started, returning control to user process
+2024-03-16 12:01:23,562 INFO    MainThread:6052 [wandb_run.py:_config_callback():1343] config_cb ('_wandb', 'visualize', 'conf_mat') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'conf_mat_table'}], 'fields': []}]}]}}} None
+2024-03-16 12:01:33,913 INFO    MainThread:6052 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-16 12:01:33,913 INFO    MainThread:6052 [wandb_init.py:_pause_backend():437] pausing backend
+2024-03-16 12:53:11,278 INFO    MainThread:6052 [wandb_init.py:_resume_backend():442] resuming backend
+2024-03-16 12:53:11,333 INFO    MainThread:6052 [wandb_run.py:_finish():1970] finishing run srividhya/CS6910_DL_assignment1/brqg56mq
+2024-03-16 12:53:11,348 INFO    MainThread:6052 [jupyter.py:save_history():445] not saving jupyter history
+2024-03-16 12:53:11,349 INFO    MainThread:6052 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-16 12:53:11,349 INFO    MainThread:6052 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-03-16 12:53:11,351 INFO    MainThread:6052 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-16 12:53:11,353 INFO    MainThread:6052 [wandb_run.py:_restore():2193] restore
+2024-03-16 12:53:11,356 INFO    MainThread:6052 [wandb_run.py:_restore():2199] restore done
+2024-03-16 12:53:21,194 INFO    MainThread:6052 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-03-16 12:53:21,197 INFO    MainThread:6052 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-03-16 12:53:21,303 INFO    MainThread:6052 [wandb_run.py:_footer_sync_info():3825] logging synced files
