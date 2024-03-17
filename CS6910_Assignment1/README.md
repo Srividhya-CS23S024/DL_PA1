@@ -23,3 +23,4 @@ https://wandb.ai/cs23s024/CS6910_DL_assignment1/reports/CS6910-Assignment-1--Vml
 2. To overwrite these parameters, use respective arguments and set the desired values. Use !python Train.py -h - to know the order of the positional arguments.
 3. Use the API key from Wandb to connect to wandb project for running and logging results.
 4. If due to some issue, this python script could not be used, we can use the notebook -PA1_CS23S024_FashionMNIST.ipynb; change the parameters passed to do_GD() function to run experiments on Fashion Mnist dataset with the desired hyperparameter values. Similarly, we can alter parameters passed to do_GD() function to run experiments on Mnist dataset.
+5. Alternatively, we can also change the parameters in the sweep_config and parameters_dict to run for the desired configurations.
