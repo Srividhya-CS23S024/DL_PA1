@@ -38,3 +38,10 @@ https://wandb.ai/cs23s024/CS6910_DL_assignment1/reports/CS6910-Assignment-1--Vml
 * loss_type-'cross_entropy','squared_error'
 * minibatch_size-size of each minibatch
 * logging-set to True to log loss and accuracy to wandb
+
+
+## References ##
+- https://docs.wandb.ai/quickstart
+- http://www.cse.iitm.ac.in/~miteshk/CS6910.html
+- https://github.com/srinivasrdhkrshnn/CS6910_Assignment_1/blob/main/Assignment_1.ipynb
+- https://github.com/sowmyamanojna/CS6910-Deep-Learning-Assignment-1/blob/main/Question-4.py
