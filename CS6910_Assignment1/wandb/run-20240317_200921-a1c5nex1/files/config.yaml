@@ -44,7 +44,7 @@ _wandb:
     framework: keras
     is_jupyter_run: true
     is_kaggle_kernel: false
-    start_time: 1710684346.129974
+    start_time: 1710686361.487652
     t:
       1:
       - 2
@@ -59,7 +59,6 @@ _wandb:
       - 53
       - 55
       3:
-      - 2
       - 16
       - 17
       - 19

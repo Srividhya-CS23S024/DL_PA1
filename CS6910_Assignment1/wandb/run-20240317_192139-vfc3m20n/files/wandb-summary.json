@@ -1,1 +1,1 @@
-{"Accuracy": 0.9424074074074074, "Loss": 1084.038870543462, "Accuracy_val": 0.9483333333333334, "Loss_val": 111.18048437207258, "Epoch": 1, "n_datatrain": 70000, "_timestamp": 1710684859.4826548, "_runtime": 1360.2346138954163, "_step": 6}
+{"Accuracy": 0.9529814814814814, "Loss": 883.1432021963716, "Accuracy_val": 0.9565, "Loss_val": 88.61838332028304, "Epoch": 2, "n_datatrain": 160000, "_timestamp": 1710687146.1900358, "_runtime": 3646.941994905472, "_step": 15, "_wandb": {"runtime": 3679}}

@@ -1,0 +1,43 @@
+2024-03-17 19:21:39,205 INFO    Thread-35 (_run_job):15880 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-17 19:21:39,206 INFO    Thread-35 (_run_job):15880 [wandb_setup.py:_flush():76] Configure stats pid to 15880
+2024-03-17 19:21:39,206 INFO    Thread-35 (_run_job):15880 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Hp\.config\wandb\settings
+2024-03-17 19:21:39,207 INFO    Thread-35 (_run_job):15880 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Hp\Downloads\DL_assignment\DL_PA1\CS6910_Assignment1\wandb\settings
+2024-03-17 19:21:39,208 INFO    Thread-35 (_run_job):15880 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'CS6910_DL_assignment1', 'entity': 'srividhya', 'root_dir': 'C:\\Users\\Hp\\Downloads\\DL_assignment\\DL_PA1\\CS6910_Assignment1', 'run_id': 'vfc3m20n', 'sweep_param_path': 'C:\\Users\\Hp\\Downloads\\DL_assignment\\DL_PA1\\CS6910_Assignment1\\wandb\\sweep-htam6kjw\\config-vfc3m20n.yaml', 'sweep_id': 'htam6kjw'}
+2024-03-17 19:21:39,209 INFO    Thread-35 (_run_job):15880 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-03-17 19:21:39,209 INFO    Thread-35 (_run_job):15880 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-17 19:21:39,211 INFO    Thread-35 (_run_job):15880 [wandb_init.py:_log_setup():526] Logging user logs to C:\Users\Hp\Downloads\DL_assignment\DL_PA1\CS6910_Assignment1\wandb\run-20240317_192139-vfc3m20n\logs\debug.log
+2024-03-17 19:21:39,213 INFO    Thread-35 (_run_job):15880 [wandb_init.py:_log_setup():527] Logging internal logs to C:\Users\Hp\Downloads\DL_assignment\DL_PA1\CS6910_Assignment1\wandb\run-20240317_192139-vfc3m20n\logs\debug-internal.log
+2024-03-17 19:21:39,213 INFO    Thread-35 (_run_job):15880 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001D367A21330>
+2024-03-17 19:21:39,214 INFO    Thread-35 (_run_job):15880 [wandb_init.py:init():566] calling init triggers
+2024-03-17 19:21:39,214 INFO    Thread-35 (_run_job):15880 [wandb_init.py:init():573] wandb.init called with sweep_config: {'activation': 'relu', 'batch_size': 64, 'hl_size': 128, 'initialization': 'xavier', 'loss_type': 'cross_entropy', 'lr': 1e-05, 'n_epoch': 3, 'n_hiddenlayer': 3, 'optimizer': 'nadam', 'reg': 0}
+config: {'input_size': 784, 'output_size': 10, 'n_epoch': 5, 'n_hiddenlayer': 3, 'hl': [64, 64, 64], 'reg': 0.0005, 'lr': 0.001, 'optimizer': 'momentum', 'batch_size': 64, 'initialization': 'xavier', 'loss_type': 'cross_entropy'}
+2024-03-17 19:21:39,215 INFO    Thread-35 (_run_job):15880 [wandb_init.py:init():616] starting backend
+2024-03-17 19:21:39,215 INFO    Thread-35 (_run_job):15880 [wandb_init.py:init():620] setting up manager
+2024-03-17 19:21:39,243 INFO    Thread-35 (_run_job):15880 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-03-17 19:21:39,247 INFO    Thread-35 (_run_job):15880 [wandb_init.py:init():628] backend started and connected
+2024-03-17 19:21:39,285 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_config_callback():1343] config_cb None None {'activation': 'relu', 'batch_size': 64, 'hl_size': 128, 'initialization': 'xavier', 'loss_type': 'cross_entropy', 'lr': 1e-05, 'n_epoch': 3, 'n_hiddenlayer': 3, 'optimizer': 'nadam', 'reg': 0}
+2024-03-17 19:21:39,287 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-03-17 19:21:39,287 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-17 19:21:39,287 INFO    Thread-35 (_run_job):15880 [wandb_init.py:init():720] updated telemetry
+2024-03-17 19:21:39,389 INFO    Thread-35 (_run_job):15880 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-17 19:21:40,632 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_on_init():2262] communicating current version
+2024-03-17 19:21:41,430 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_on_init():2271] got version response upgrade_message: "wandb version 0.16.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-03-17 19:21:41,430 INFO    Thread-35 (_run_job):15880 [wandb_init.py:init():804] starting run threads in backend
+2024-03-17 19:21:41,907 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_console_start():2241] atexit reg
+2024-03-17 19:21:41,907 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_redirect():2096] redirect: wrap_raw
+2024-03-17 19:21:41,907 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_redirect():2161] Wrapping output streams.
+2024-03-17 19:21:41,908 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_redirect():2186] Redirects installed.
+2024-03-17 19:21:41,909 INFO    Thread-35 (_run_job):15880 [wandb_init.py:init():847] run started, returning control to user process
+2024-03-17 19:21:41,911 INFO    Thread-35 (_run_job):15880 [wandb_config.py:__setitem__():151] config set hl = [128, 128, 128] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x000001D372B14BE0>>
+2024-03-17 19:21:41,912 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_config_callback():1343] config_cb hl [128, 128, 128] None
+2024-03-17 20:23:00,936 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_finish():1970] finishing run srividhya/CS6910_DL_assignment1/vfc3m20n
+2024-03-17 20:23:00,949 INFO    Thread-35 (_run_job):15880 [jupyter.py:save_history():445] not saving jupyter history
+2024-03-17 20:23:00,949 INFO    Thread-35 (_run_job):15880 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2024-03-17 20:23:00,950 INFO    Thread-35 (_run_job):15880 [wandb_init.py:_jupyter_teardown():454] cleaning up jupyter logic
+2024-03-17 20:23:00,952 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_atexit_cleanup():2210] got exitcode: 0
+2024-03-17 20:23:00,955 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_restore():2193] restore
+2024-03-17 20:23:00,958 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_restore():2199] restore done
+2024-03-17 20:23:09,497 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_footer_history_summary_info():3866] rendering history
+2024-03-17 20:23:09,501 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_footer_history_summary_info():3898] rendering summary
+2024-03-17 20:23:09,562 INFO    Thread-35 (_run_job):15880 [wandb_run.py:_footer_sync_info():3825] logging synced files

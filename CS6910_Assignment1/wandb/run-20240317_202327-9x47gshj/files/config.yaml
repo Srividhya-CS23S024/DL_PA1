@@ -20,22 +20,22 @@ hl:
   - 64
 reg:
   desc: null
-  value: 0
+  value: 0.0005
 lr:
   desc: null
   value: 1.0e-05
 optimizer:
   desc: null
-  value: nadam
+  value: adam
 batch_size:
   desc: null
-  value: 128
+  value: 64
 initialization:
   desc: null
-  value: xavier
+  value: random
 loss_type:
   desc: null
-  value: squared_error
+  value: cross_entropy
 _wandb:
   desc: null
   value:
@@ -44,7 +44,7 @@ _wandb:
     framework: keras
     is_jupyter_run: true
     is_kaggle_kernel: false
-    start_time: 1710684346.129974
+    start_time: 1710687207.231212
     t:
       1:
       - 2
@@ -59,10 +59,8 @@ _wandb:
       - 53
       - 55
       3:
-      - 2
       - 16
       - 17
-      - 19
       - 23
       - 37
       4: 3.10.13
@@ -77,4 +75,4 @@ activation:
   value: relu
 hl_size:
   desc: null
-  value: 64
+  value: 128
