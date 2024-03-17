@@ -9,4 +9,4 @@ This is the code repository to the first programming assignment of **CS6910 - FU
 **Output**: The prediction accuracy for the validation set
 
 
-**Inside DL_PA1 folder** - you will find **instructions to run the notebook** and the link to the **wandb report**.
+**Inside CS6910_Assignment1 folder** - you will find **instructions to run the notebook** and the link to the **wandb report**.
