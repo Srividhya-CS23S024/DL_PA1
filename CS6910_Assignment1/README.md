@@ -1,4 +1,4 @@
-**Overview**
+## Overview ##
 
 This Folder consists of all my experiments and observations corresponding to programming assignment 1.
 
@@ -18,7 +18,7 @@ The details of the experiments and the observations are highlighted in the respe
 ## Wandb report link ## 
 https://wandb.ai/cs23s024/CS6910_DL_assignment1/reports/CS6910-Assignment-1--Vmlldzo3MDY3Njky
 
-## How to use Train.py ##
+## How to use Train.py? ##
 1. The default hyperparameters are set to the setting with the highest accuracy for both the datasets.
 2. To overwrite these parameters, use respective arguments and set the desired values. Use !python Train.py -h - to know the order of the positional arguments.
 3. Use the API key from Wandb to connect to wandb project for running and logging results.
